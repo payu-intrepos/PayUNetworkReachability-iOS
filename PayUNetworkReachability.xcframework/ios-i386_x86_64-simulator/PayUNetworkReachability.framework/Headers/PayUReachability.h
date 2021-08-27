@@ -18,7 +18,7 @@ typedef enum : NSInteger {
 } PayUNetworkStatus;
 
 
-extern NSString *pReachabilityChangedNotification;
+extern NSString *kPayUReachabilityChangedNotification;
 
 
 @interface PayUReachability : NSObject
