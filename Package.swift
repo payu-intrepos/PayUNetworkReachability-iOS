@@ -9,9 +9,9 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "PayUIndia-NetworkReachability",
-            targets: ["PayUIndia-NetworkReachability"]),
+            targets: ["PayUNetworkReachability"]),
     ],
     targets: [
-            .binaryTarget(name: "PayUIndia-NetworkReachability", path: "./PayUNetworkReachability.xcframework")
+            .binaryTarget(name: "PayUNetworkReachability", path: "./PayUNetworkReachability.xcframework")
         ]
 )
