@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "PayUIndia-NetworkReachability",
+    platforms: [.iOS(.v11)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -12,6 +13,6 @@ let package = Package(
             targets: ["PayUNetworkReachability"]),
     ],
     targets: [
-            .binaryTarget(name: "PayUNetworkReachability", path: "./PayUNetworkReachability.xcframework")
-        ]
+        .binaryTarget(name: "PayUNetworkReachability", path: "./PayUNetworkReachability.xcframework")
+    ]
 )
