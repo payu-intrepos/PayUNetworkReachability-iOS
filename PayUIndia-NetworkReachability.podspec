@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "PayUIndia-NetworkReachability"
-  s.version             = "2.0.2"
+  s.version             = "1.0.2"
   s.license             = "MIT"
   s.homepage            = "https://github.com/payu-intrepos/PayUNetworkReachability-iOS"
   s.author              = { "PayUbiz" => "contact@payu.in"  }
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.description         = "SDK to check network status."
 
   s.source              = { :git => "https://github.com/payu-intrepos/PayUNetworkReachability-iOS.git", 
-                            :tag => "#{s.name}_#{s.version}"
+                            :tag => "#{s.version}"
                           }
   s.documentation_url   = "https://app.gitbook.com/@payumobile/s/sdk-integration/ios"
   s.platform            = :ios , "12.0"
