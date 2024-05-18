@@ -4,3 +4,8 @@ framework module PayUNetworkReachability {
 
   module * { export * }
 }
+
+module PayUNetworkReachability.Swift {
+  header "PayUNetworkReachability-Swift.h"
+  requires objc
+}

@@ -10,13 +10,11 @@
 #import <SystemConfiguration/SystemConfiguration.h>
 #import <netinet/in.h>
 
-
 typedef enum : NSInteger {
     PayUNotReachable = 0,
     PayUReachableViaWiFi,
     PayUReachableViaWWAN
 } PayUNetworkStatus;
-
 
 extern NSString *kPayUReachabilityChangedNotification;
 
@@ -24,24 +22,9 @@ extern NSString *kPayUReachabilityChangedNotification;
 @interface PayUReachability : NSObject
 
 /*!
- * Use to check the reachability of a given host name.
- */
-+ (instancetype)reachabilityWithHostName:(NSString *)hostName;
-
-/*!
- * Use to check the reachability of a given IP address.
- */
-+ (instancetype)reachabilityWithAddress:(const struct sockaddr_in *)hostAddress;
-
-/*!
  * Checks whether the default route is available. Should be used by applications that do not connect to a particular host.
  */
 + (instancetype)reachabilityForInternetConnection;
-
-/*!
- * Checks whether a local WiFi connection is available.
- */
-+ (instancetype)reachabilityForLocalWiFi;
 
 /*!
  * Start listening for reachability notifications on the current run loop.
@@ -50,11 +33,6 @@ extern NSString *kPayUReachabilityChangedNotification;
 - (void)stopNotifier;
 
 - (PayUNetworkStatus)currentReachabilityStatus;
-
-/*!
- * WWAN may be available, but not active until a connection has been established. WiFi may require a connection for VPN on Demand.
- */
-- (BOOL)connectionRequired;
 
 - (BOOL)currentNetworkStatus;
 

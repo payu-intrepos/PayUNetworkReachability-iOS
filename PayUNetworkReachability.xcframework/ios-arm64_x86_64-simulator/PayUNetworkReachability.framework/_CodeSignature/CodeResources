@@ -4,21 +4,65 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/PayUNetworkReachability-Swift.h</key>
+		<data>
+		Tgpjl6NeElXcRaYduOOaD24f50I=
+		</data>
 		<key>Headers/PayUNetworkReachability.h</key>
 		<data>
 		gK4rNJ8dSVd7jukAx6AM9hYAdj0=
 		</data>
 		<key>Headers/PayUReachability.h</key>
 		<data>
-		y0E1XWErq348hU5TLOkK0Eih9v8=
+		GJtArCKW7aAA3UQ5DBXYHLIzKX0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ztMWvQyCeg1JXUwzuJ4ziFdctIM=
+		pAhYL45dhylOQFM5sUVVqv4BljI=
+		</data>
+		<key>Modules/PayUNetworkReachability.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		yK2dXP3KcQFovEFnN3KJDHntrMY=
+		</data>
+		<key>Modules/PayUNetworkReachability.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		7xsFEFCzJ0I6FbU7Hlnr2BkbJEM=
+		</data>
+		<key>Modules/PayUNetworkReachability.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		tk+qJh5rGl7Irjszd982x02paeY=
+		</data>
+		<key>Modules/PayUNetworkReachability.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		7xsFEFCzJ0I6FbU7Hlnr2BkbJEM=
+		</data>
+		<key>Modules/PayUNetworkReachability.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		sZ+hEGI6bRgaMqd16Jxf4K2dyrE=
+		</data>
+		<key>Modules/PayUNetworkReachability.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		yK2dXP3KcQFovEFnN3KJDHntrMY=
+		</data>
+		<key>Modules/PayUNetworkReachability.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		3vjYMw4O1vHMh01z299qOk2pWFo=
+		</data>
+		<key>Modules/PayUNetworkReachability.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		aTHa9V2brgUIV+7PWGOMQiAOIJo=
+		</data>
+		<key>Modules/PayUNetworkReachability.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		3vjYMw4O1vHMh01z299qOk2pWFo=
+		</data>
+		<key>Modules/PayUNetworkReachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		TLT050ONli7YPuCitCcDP3YlXcc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		MCrn7K7B8me4Hg4Kohnxu8nHAJg=
+		/vDCJE89dnw5yXha08OT7PVZhzs=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -27,12 +71,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/PayUNetworkReachability-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s9tRjNeDvFUi9RS+0wHNPCdQ3flsphcVsL3sp4NI0KM=
+			</data>
+		</dict>
 		<key>Headers/PayUNetworkReachability.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gK4rNJ8dSVd7jukAx6AM9hYAdj0=
-			</data>
 			<key>hash2</key>
 			<data>
 			xpw8NT8SUG9w5dhp+Tv5qQ+UzJDYIhZInLQUKn+xeZM=
@@ -40,32 +87,90 @@
 		</dict>
 		<key>Headers/PayUReachability.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			y0E1XWErq348hU5TLOkK0Eih9v8=
-			</data>
 			<key>hash2</key>
 			<data>
-			28RigQc02bl3DWYiwSJHMPTc1sl324QZWJakG6Wp/3o=
+			q3sqtiHMatJ8aHHo9HXWLZOXoC17IGaD5o2X6ou6O0E=
+			</data>
+		</dict>
+		<key>Modules/PayUNetworkReachability.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CbTiI649bD7Tmtlb61ovb+89mOSFE3X4LHJX9oIE1nU=
+			</data>
+		</dict>
+		<key>Modules/PayUNetworkReachability.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YPC6jA2mmiPdR/cTbXPRkOmXwRVgbdt7FB8hygc1aY0=
+			</data>
+		</dict>
+		<key>Modules/PayUNetworkReachability.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h8bnosWt8CdVL7AvJUWRYWdnRAxiokZg4hoqqUrXiro=
+			</data>
+		</dict>
+		<key>Modules/PayUNetworkReachability.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YPC6jA2mmiPdR/cTbXPRkOmXwRVgbdt7FB8hygc1aY0=
+			</data>
+		</dict>
+		<key>Modules/PayUNetworkReachability.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			snBTFKVqT7cQlnETH6hy6crR8/h91U3052SU567ZK4A=
+			</data>
+		</dict>
+		<key>Modules/PayUNetworkReachability.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CbTiI649bD7Tmtlb61ovb+89mOSFE3X4LHJX9oIE1nU=
+			</data>
+		</dict>
+		<key>Modules/PayUNetworkReachability.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			feRSPMIqR11b18+6Pkt4vDAVqqNaSWrjWJnjvGsORyg=
+			</data>
+		</dict>
+		<key>Modules/PayUNetworkReachability.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VytSeGNmtTdwL24DNXPqiWfA6faRsbrfGlVkRVQRPKA=
+			</data>
+		</dict>
+		<key>Modules/PayUNetworkReachability.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			feRSPMIqR11b18+6Pkt4vDAVqqNaSWrjWJnjvGsORyg=
+			</data>
+		</dict>
+		<key>Modules/PayUNetworkReachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RKX5YwJpV1ZY8nhHs6giaqV1OYSue6JUVdzLzRZCqcM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MCrn7K7B8me4Hg4Kohnxu8nHAJg=
-			</data>
 			<key>hash2</key>
 			<data>
-			j7jYNOTHAS9KpY1Hfc6T6ZpRcagjT85EdV0mJU0W3yM=
+			uMZHrRZc9nRbweL/3KY/8fyswv70K/OLkNL/esmDVyw=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZajnvEs/MYRS3X4TPLAhBWi8mc4=
-			</data>
 			<key>hash2</key>
 			<data>
 			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
